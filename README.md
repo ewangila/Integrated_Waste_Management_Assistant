@@ -347,49 +347,25 @@ Potential extensions to the project include:
 - **Performance monitoring:** Track model performance, retrieval relevance, and recurring classification errors.
 - **User feedback:** Allow residents to flag incorrect classifications or disposal instructions for review.
 
-These are proposed enhancements rather than claims about currently implemented features.
+These are proposed enhancements, not claims about currently implemented features.
 
 ---
 
-## 🧰 Technology Stack
-
-The project uses Python-based tools for data processing, machine learning, deep learning, and semantic retrieval.
-
-| Area | Technologies |
-|---|---|
-| Programming Language | Python |
-| Data Processing | pandas, NumPy |
-| Image Processing | Pillow |
-| Deep Learning | TensorFlow or PyTorch |
-| NLP | Transformers |
-| Text Embeddings | Sentence Transformers |
-| Machine Learning | scikit-learn |
-| Data Visualization | Matplotlib, Seaborn |
-| Development | Jupyter Notebook |
-
-The exact dependency list is maintained in `requirements.txt`.
-
----
-
-## 📄 License
+##  License
 
 This project is released under the **MIT License**. See the [`LICENSE`](LICENSE) file for the full terms.
 
-The project license does not automatically grant permission to redistribute third-party datasets, pretrained models, or official policy documents. Their respective licenses and usage conditions should be checked separately.
+The project license does not automatically grant permission to redistribute third-party datasets, pretrained models, or official policy documents. Check their respective licenses and usage conditions separately.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Eugin Wangila Wangwe**
 
-GitHub: [@ewangila](https://github.com/ewangila)
-
-Project Repository: [Integrated Waste Management Assistant](https://github.com/ewangila/Integrated_Waste_Management_Assistant)
-
 ---
 
-## 🌍 Project Vision
+##  Project Vision
 
 EcoSort explores how artificial intelligence can support more informed waste disposal decisions by combining visual recognition, text understanding, and locally relevant policy information.
 
