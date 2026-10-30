@@ -1,8 +1,6 @@
 """
 EcoSort: Intelligent Waste Management Assistant
-Consolidated Python script from waste_management.ipynb
 """
-
 import warnings
 import os
 import logging
@@ -39,7 +37,7 @@ os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 
 
-# --- Cell 3 ---
+# Cell 3 
 
 import warnings
 import os
@@ -61,7 +59,7 @@ import pandas as pd
 pd.options.mode.chained_assignment = None
 
 
-# --- Cell 5 ---
+# Cell 5
 
 from pathlib import Path
 
@@ -72,7 +70,7 @@ assert PROJECT_DIR.is_dir(), 'Check your EcoSort folder location.'
 assert data_dir.is_dir(), 'Check your RealWaste folder location.'
 
 
-# --- Cell 6 ---
+# Cell 6 
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -134,7 +132,7 @@ plt.show()
 display(pd.DataFrame(image_details))
 
 
-# --- Cell 8 ---
+#  Cell 8 
 
 df = pd.read_csv(PROJECT_DIR / 'waste_descriptions.csv')
 
@@ -160,7 +158,7 @@ print('Average words per description:', round(word_counts.mean(), 2))
 display(word_counts.describe().to_frame('words_per_description'))
 
 
-# --- Cell 9 ---
+# Cell 9 
 
 import json # Add this line
 
