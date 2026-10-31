@@ -182,7 +182,7 @@ Integrated_Waste_Management_Assistant/
 ├── RealWaste/
 │   └── [Nine waste-category folders]
 │
-├── ecosort.py
+├── waste_management.py
 ├── waste_management.ipynb
 ├── requirements.txt
 ├── LICENSE
@@ -193,7 +193,7 @@ Integrated_Waste_Management_Assistant/
 |---|---|
 | `data/` | Contains structured text data and waste policy documents. |
 | `RealWaste/` | Contains the image dataset organized by waste category. |
-| `ecosort.py` | Consolidated script for the implemented EcoSort pipeline. |
+| `waste_management.py` | Consolidated script for the implemented EcoSort pipeline. |
 | `waste_management.ipynb` | Notebook for exploration, experimentation, model development, and analysis. |
 | `requirements.txt` | Lists the Python dependencies required by the project. |
 | `LICENSE` | Specifies the project's licensing terms. |
@@ -284,7 +284,7 @@ Run the cells in order, following any dataset preparation and model configuratio
 Run the consolidated pipeline from the project root:
 
 ```bash
-python ecosort.py
+python waste_management.py
 ```
 
 The script's available inputs, outputs, and execution behavior depend on the functionality implemented in `ecosort.py`.
