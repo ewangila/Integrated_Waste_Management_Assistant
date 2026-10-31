@@ -1,4 +1,3 @@
-# Consolidated Python code from waste_management_v2.ipynb.
 # Requires the original EcoSort data and Google Colab/Google Drive setup.
 # Install dependencies before running:
 # python -m pip install tensorflow pandas matplotlib pillow numpy scikit-learn sentence-transformers transformers accelerate torch
